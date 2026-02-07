@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+
+#password{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 300px;
+}
+
+.output{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+}
